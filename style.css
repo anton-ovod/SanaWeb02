@@ -1,3 +1,4 @@
+/* Task 1 */
 p{
     color: green;
     text-align: center;
@@ -34,5 +35,11 @@ ul li:last-child ul li{
 
 ul li:last-child ul.last-sublist li a{
     text-decoration: none;
+}
+
+
+/* Task 2 */
+h1 + p{
+    font-size: 20px;
 }
 
