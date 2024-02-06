@@ -43,3 +43,16 @@ h1 + p{
     font-size: 20px;
 }
 
+p code{
+    color: red;
+}
+
+p + code{
+    color: pink;
+}
+
+code{
+    white-space: pre;
+    font-family: monospace;
+}
+
