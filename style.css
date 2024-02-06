@@ -10,3 +10,7 @@ p:nth-child(odd){
 p:nth-child(2){
     color:purple;
 }
+
+a{
+    color: blue;
+}
