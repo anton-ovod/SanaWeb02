@@ -14,3 +14,25 @@ p:nth-child(2){
 a{
     color: blue;
 }
+
+ul li a
+{
+    color: pink;
+}
+
+div > ul > li > a{
+    color: green;
+}
+
+ul ul li{
+    list-style-type: none;
+}
+
+ul li:last-child ul li{
+    list-style-type: square;
+}
+
+ul li:last-child ul li a{
+    text-decoration: none;
+}
+
