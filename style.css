@@ -32,7 +32,7 @@ ul li:last-child ul li{
     list-style-type: square;
 }
 
-ul li:last-child ul li a{
+ul li:last-child ul.last-sublist li a{
     text-decoration: none;
 }
 
