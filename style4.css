@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Century Gothic', sans-serif;
     line-height: 1.6;
     background-image: url('images/bg-image.jpg');
     background-repeat: no-repeat;
@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    width: 800px;
+    height: 450px;
     margin: 50px auto;
-    padding: 30px 0px 30px 30px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -19,49 +19,36 @@ body {
 }
 
 
+.image-container{
+    flex: 1;
+
+}
+
 .image-container img{
-    width: 100px;
-
+    width: 400px;
+    height: 450px;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-top: 0;
+.form-header h2{
+    font-size: 30px;
+    margin: 0px;
+    color: #73A7A4;
 }
 
-label {
-    display: block;
-    margin-top: 20px;
+.form-header p{
+    font-size: 16;
+    margin: 0px;
 }
 
-input,
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 5px;
+.form-header hr{
+    background-color: #F66682;
+    height: 1.5px;
+    width: 50px;
+    margin-left: 0px;
+    
 }
 
-button {
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border-color: #007bff;
-}
-
-button:hover {
-    background-color: #0056b3;
-    border-color: #004999;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-#show-password {
-    margin-top: 10px;
+.form-container{
+    flex: 1;
+    padding: 30px 0px 30px 30px;
 }
