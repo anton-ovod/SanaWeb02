@@ -9,14 +9,50 @@
 <body>
     <div class="container">
         <div class="form-container">
+
             <div class="form-header">
                 <h2>Sign Up Today</h2>
                 <p>The first 10 days are absolutely FREE!</p>
                 <hr>
             </div>
-            <form>
 
-            </form>
+            <div class="main-form">
+
+                <form action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="username">What's your name?<span class="mandatory-sign">*</span></label>
+                        <input type="text" id="username" name="username" placeholder="Olivia Bennett" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Where can we email you?<span class="mandatory-sign">*</span></label>
+                        <input type="text" id="username" name="email" placeholder="hello@yourock.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Pick a password:<span class="mandatory-sign">*</span></label>
+                        <input type="text" id="username" name="email" placeholder="Make it a good one!" required>
+                    </div>
+
+                    <div class="show-pass-group">
+                        <label class="show-pass-label">
+                            <input type="checkbox" id="show-pass" name="show-pass">
+                            Show Password
+                        </label>
+                    </div>
+
+                    <div class="button-group">
+                        <div>
+                            <input type="submit" value="Sign up">
+                        </div>
+                        <div>
+                            <p>Have an account?</p>
+                            <a href="#">Log in here!</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <div class="image-container">

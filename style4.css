@@ -1,14 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Century Gothic', sans-serif;
     line-height: 1.6;
     background-image: url('images/bg-image.jpg');
-    background-repeat: no-repeat;
-    background-size:auto;
 }
 
 .container {
     width: 800px;
-    height: 450px;
+    height: 500px;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 4px;
@@ -18,15 +22,9 @@ body {
     justify-content: space-between;
 }
 
-
-.image-container{
-    flex: 1;
-
-}
-
 .image-container img{
-    width: 400px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
 }
 
 .form-header h2{
@@ -42,13 +40,94 @@ body {
 
 .form-header hr{
     background-color: #F66682;
-    height: 1.5px;
+    height: 3px;
     width: 50px;
     margin-left: 0px;
-    
+    margin-top: 10px;
+}
+
+.image-container{
+    width: 50%;
+    height: 100%;
 }
 
 .form-container{
-    flex: 1;
-    padding: 30px 0px 30px 30px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-group label{
+    display: block;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.main-form{
+    padding: 10px;
+}
+
+input[type="checkbox"]{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+.show-pass-group{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    font-size: 16px;
+    color: #fff;
+    background-color: #F66682;
+    padding: 10px 40px;
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    transition : 1193ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    transition : 1193ms;
+    padding: 10px 36px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+
+}
+.show-pass-label{
+    font-size: 12px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button-group p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px
+}
+.button-group a{
+   text-decoration: none;
+   color: #F66682;
 }
